@@ -1,0 +1,6 @@
+@echo off
+title TypeFlow Studio Pro
+echo Checking and installing requirements...
+python -m pip install -r requirements.txt
+echo Starting TypeFlow...
+python app.py
