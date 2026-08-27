@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=TypeFlow Studio
+Exec=bash -c "cd $(dirname %k) && python3 -m pip install -r requirements.txt && python3 app.py"
+Terminal=true
+Icon=utilities-terminal
+Categories=Utility;
